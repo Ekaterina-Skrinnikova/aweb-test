@@ -1,0 +1,102 @@
+body {
+  /* font-family: sans-serif; */
+  line-height: 1.6;
+}
+
+.container {
+  box-sizing: border-box;
+  margin: 0 auto;
+  padding: 40px 100px;
+  width: 960px;
+}
+
+h1 {
+  margin-top: 0;
+}
+
+.title {
+  text-align: center;
+}
+
+.text {
+  margin-top: 20px;
+}
+
+table {
+  margin: 0 auto;
+  width: 100%;
+}
+
+caption {
+  text-align: left;
+}
+
+table,
+td {
+  border: 2px solid black;
+  border-collapse: collapse;
+}
+
+.block-perf {
+  width: 180px;
+  text-align: center;
+}
+
+.img-perf {
+  width: 180px;
+}
+
+td {
+  padding: 15px;
+}
+
+ul {
+  padding-left: 20px;
+  margin: 0;
+}
+
+p {
+  margin: 0;
+}
+
+.list {
+  margin-bottom: 40px;
+}
+
+.link {
+  margin-left: 50px;
+  color: rgba(4, 127, 215, 0.862);
+}
+
+.margin {
+  margin-top: 40px;
+}
+
+.wrapper {
+  font-size: 18px;
+  line-height: 1.2;
+}
+
+.img {
+  float: left;
+}
+
+.advantages p {
+  margin-bottom: 20px;
+}
+
+.advantages p:first-child {
+  margin-bottom: 40px;
+}
+
+.advantages p:last-child {
+  margin-bottom: 0;
+}
+
+ol {
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+  font-size: 18px;
+  line-height: 1.2;
+}
